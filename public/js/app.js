@@ -6179,7 +6179,13 @@ var render = function render() {
     attrs: {
       disabled: _vm.form.processing
     }
-  }, [_vm._v("\n                Login\n            ")])], 1)])], 1);
+  }, [_vm._v("\n                Login\n            ")])], 1)]), _vm._v(" "), _c("div", {
+    staticClass: "text-right font-semibold mt-4 hover:text-blue-800"
+  }, [_c("a", {
+    attrs: {
+      href: _vm.route("voyager.login")
+    }
+  }, [_vm._v("Logar como admin!")])])], 1);
 };
 var staticRenderFns = [];
 render._withStripped = true;
